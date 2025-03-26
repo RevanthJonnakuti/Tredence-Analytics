@@ -22,9 +22,9 @@ from typing import List
 # Load environment variables from .env file
 load_dotenv()
 
-CLOUDINARY_CLOUD_NAME = st.secrets["CLOUDINARY_CLOUD_NAME "]
-CLOUDINARY_API_KEY = st.secrets["CLOUDINARY_API_KEY "]
-CLOUDINARY_API_SECRET = st.secrets["CLOUDINARY_API_SECRET "]
+CLOUDINARY_CLOUD_NAME = st.secrets["CLOUDINARY_CLOUD_NAME"]
+CLOUDINARY_API_KEY = st.secrets["CLOUDINARY_API_KEY"]
+CLOUDINARY_API_SECRET = st.secrets["CLOUDINARY_API_SECRET"]
 
 cloudinary.config(
     cloud_name=CLOUDINARY_CLOUD_NAME,
