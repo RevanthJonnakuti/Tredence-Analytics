@@ -83,7 +83,7 @@ conn = init_db()
 # Initialize EasyOCR Reader
 reader = easyocr.Reader(
     ['en'],
-    model_storage_directory=r"C:\One Drive\OneDrive - Tredence\Work\Temporary works-assigned\Raffle Draw\check-backend\models",
+    model_storage_directory="models",
     download_enabled=False
 )
 
